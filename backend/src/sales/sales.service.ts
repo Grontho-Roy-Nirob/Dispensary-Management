@@ -69,7 +69,6 @@ export class SalesService {
       }
 
       const unitPrice = Number(medicine.price);
-
       const subtotal = Number((unitPrice * quantity).toFixed(2));
 
       totalAmount = Number((totalAmount + subtotal).toFixed(2));
